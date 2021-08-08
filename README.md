@@ -61,7 +61,7 @@ Finally we will see how tough this is for a non-convex surface,
 ![Image of function](Images/pr_gd_cncv.png)
 ![Image of function](Images/pr_gd_cncv_3d.png)
 
-And finally We will use momentum updation to haldel these dificulties.
+And finally We will use momentum updation to haldel these dificulties. Here to show the change I purposefully kept the momentum parameter high
 
 ![Image of function](Images/momentum.png)
 ![Image of function](Images/momentum_3d.png)
