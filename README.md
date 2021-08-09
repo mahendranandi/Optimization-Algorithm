@@ -4,7 +4,6 @@ For learning, visualizing and understanding the optimization techniques and algo
 #
 #
 
-
 Visualizations and in depth concepts of the Machine Learning optimization algorithms are discussed and shown here with different functions as examples and understanding the differences by comparing  them.
 ## Over all types of Line and direction search algorithms in Gradient Descent discussed here: :shipit:
 - Line search & direction search in Gradient Descent:
@@ -44,7 +43,7 @@ Here we go,
 First some visualizations of functions will definitely make you curious to know more about the optimization, so, 
 look at the functions think how to find the minimum starting from a arbitrary point,
 
-$\frac{sin(10(x^2+y^2))}{10}$
+![\Large f(x,y)=$\frac{sin(10(x^2+y^2))}{10}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{sin(10(x^2+y^2))}{10}) 
 ![Image of function](Images/cool.png)
 
 We will work with simple univariate and bivariate functions for understanding,:yawning_face: One convex and one non-convex function is shown below,
@@ -113,8 +112,8 @@ As we have added noise to perform a SGD, it becomes tough now to reach the minim
   
 # 
 ## Comparison of different methods of dynamic step size:
-Here polynomially decreases step size is used but you can use exponential functions to handle eta, or you may keep it constant or step wise decreasing, a plot showing comparison among these different methods are shown here,,, these different methods behave differently in different function, so be careful. But in most cases Polynomially decreasing $\eta$ is doing better control. The below methods are discussed inside the ipynb file.
-- [x] Constant Learning Rate ,i.e value of $\eta$ is constant with iteration. As a result step length will decrease with decrease in gradient value
+Here polynomially decreases step size is used but you can use exponential functions to handle eta, or you may keep it constant or step wise decreasing, a plot showing comparison among these different methods are shown here,,, these different methods behave differently in different function, so be careful. But in most cases Polynomially decreasing <img src="https://render.githubusercontent.com/render/math?math=\eta"> is doing better control. The below methods are discussed inside the ipynb file.
+- [x] Constant Learning Rate ,i.e value of <img src="https://render.githubusercontent.com/render/math?math=\eta"> is constant with iteration. As a result step length will decrease with decrease in gradient value
 - [x] Step Wise decreasing LR , i.e, LR is reduced by a fraction when function balue in any iteration is increased
 - [x] Exponentially decresing LR with iteration 
 - [x] Polynomially decreasing LR
@@ -123,7 +122,7 @@ Here polynomially decreases step size is used but you can use exponential functi
   
 # 
 ## For the non-convex Surface:
-Finally we will see how tough this is for a non-convex surface ( the function used here is shown above $\large f(x_1, x_2) =  x_1^2 - 2 x_2^2$ ),
+Finally we will see how tough this is for a non-convex surface ( the function used here is shown above <img src="https://render.githubusercontent.com/render/math?math=f(x_1, x_2) =  x_1^2 - 2 x_2^2" >  ),
 
 ![Image of function](Images/pr_gd_cncv.png)
 ![Image of function](Images/pr_gd_cncv_3d.png)
@@ -153,3 +152,5 @@ Thats it. Go to the ipynb files now.
 Also I think, it will be better if anyone want to help me by just making the ipynb files more understandable by separation the topics.
 If you feel hard anywhere, contact me in mahendranandi.0608@gmail.com
 **
+
+<!-- <img src="https://render.githubusercontent.com/render/math?math=e^{i +\pi} =x+1"> -->
