@@ -37,6 +37,21 @@ Visualizations and in depth concepts of the Machine Learning optimization algori
 Here All optimization techniques are explained through code. You can find the codes inside the ipynb files along with some explanation. The codes are very simple to understand, if the theory is clear to you. ( In future I will put some easy explanation and theory here )
 First go through the file " complete_OPTAL.ipynb" then go through "GD_SGD_MNGD_momentum.ipynb" initially with the pdf. If you want to visualize the pots in other way checkout the "collection_of_plots.ipynb" . Now continue reading :point_down:
 
+
+# 
+# But What Is Gradient descent actually?
+# 
+Let's discussed about Gradient Descent. If you started your Machine Learning course, you already started minimizing your Loss function. So you need to find the **optimum parameters** which minimize the function. The loss function may be of different kinds and may be convex, concave or both or may contain saddle points. If it is a least square loss then it is a quadratic function and definitely it is a convex function. And initially we assign random values to the parameters and then use different libraries to solve for optimum values of the parameters. But what goes behind the scene will be discussed here.
+
+So, for now forget everything just listen to the story. Suppose you live in USA and your friend live in DELHI in India.You want to visit to your friend's house. You have no information how to reach there. So initially you have the information that some how you have to reach to India. Now suppose you land in Mumbai(another city of India).
+So, again for the time being you have that information that you have to go to DELHI from MUMBAI. So from there you directly reach to a train station in Delhi. Now you have reached Delhi, so you are near to your friend house. And now you have to remind about your friend profession, in which company he works etc. So basically you have to use some more detailed and sensitive information now. So as you can remember your friend works on Google, so you visit the nearest Google office there. From there you again gain some more information about the exact location of the flat he lives. In this way by asking the local people you reach the flat and found the room of your friend. So, basically what you did is you moved directly to the next place on the basis of the information you gained in that place.   
+Gradient Descent is the process in which we try to find the minimum valued point. And this works exactly same as you did. Initially we will have no information about the optimum point, but have the current information about the approximate direction we should find for a optima. Similarly you also didn't have the detailed information and used the current information. Here  the world map is comparable to the function, the current update or information in any point is comparable to the gradient of the function on that point. Near the optima we feel tough and get stuck many times as you felt.
+And for a single move you first decided where to go from where and then choose train,bus etc. Similarly to make a step from any point to next point we go towards the direction of the gradient of the function. So after knowing the direction we fix the step size that is how much we want to move in that direction. 
+
+So first find direction to move and then find the learning rate, i.e, how much to move in that direction. When you feel the vanilla gradient descent is not working well then you must use your knowledge to get a optimum direction as well as a dynamic step length or learning rate. And by adding more parameter to GD we get the optimum point often quickly and don't get stuck any other stationary points, local minima, saddle point etc. So we will see code for Gradient Descent and then move to the modified versons of that. Next we will see SGD and problems introduced in SGD and how to get rid of those problems by introducing momentum, regularization etc. 
+
+
+
 # 
 ### Example of Some Bivariate Functions: :+1:
 Here we go,
