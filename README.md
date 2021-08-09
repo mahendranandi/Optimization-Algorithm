@@ -43,7 +43,7 @@ Here we go,
 First some visualizations of functions will definitely make you curious to know more about the optimization, so, 
 look at the functions think how to find the minimum starting from a arbitrary point,
 
-![\Large f(x,y)=$\frac{sin(10(x^2+y^2))}{10}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{sin(10(x^2+y^2))}{10}) 
+![\Large f(x,y)=$\frac{sin(10(x^2+y^2))}{10}](https://latex.codecogs.com/svg.latex?\Large&space;f(x,y)=\frac{sin(10(x^2+y^2))}{10}) 
 ![Image of function](Images/cool.png)
 
 We will work with simple univariate and bivariate functions for understanding,:yawning_face: One convex and one non-convex function is shown below,
@@ -112,7 +112,7 @@ As we have added noise to perform a SGD, it becomes tough now to reach the minim
   
 # 
 ## Comparison of different methods of dynamic step size:
-Here polynomially decreases step size is used but you can use exponential functions to handle eta, or you may keep it constant or step wise decreasing, a plot showing comparison among these different methods are shown here,,, these different methods behave differently in different function, so be careful. But in most cases Polynomially decreasing <img src="https://render.githubusercontent.com/render/math?math=\eta"> is doing better control. The below methods are discussed inside the ipynb file.
+Here polynomially decreases step size is used but you can use exponential functions to handle <img src="https://render.githubusercontent.com/render/math?math=\eta"> , or you may keep it constant or step wise decreasing, a plot showing comparison among these different methods are shown here,,, these different methods behave differently in different function, so be careful. But in most cases Polynomially decreasing <img src="https://render.githubusercontent.com/render/math?math=\eta"> is doing better control. The below methods are discussed inside the ipynb file.
 - [x] Constant Learning Rate ,i.e value of <img src="https://render.githubusercontent.com/render/math?math=\eta"> is constant with iteration. As a result step length will decrease with decrease in gradient value
 - [x] Step Wise decreasing LR , i.e, LR is reduced by a fraction when function balue in any iteration is increased
 - [x] Exponentially decresing LR with iteration 
