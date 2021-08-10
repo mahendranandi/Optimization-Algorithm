@@ -153,7 +153,7 @@ Finally we will see how tough this is for a non-convex surface ( the function us
 ## Momentum updation in GD:
 And finally We will use momentum updation to handle these difficulties. Momentum help the point keep going in a direction resultant of its momentum at that point and gradient and helps not to stuck in local minima or saddle point. Here to show the change I purposefully kept the momentum parameter high, so you can see that though it know in which direction the minima is , but it will take its momentum in consideration. As a result it takes a long way, but if you reduce momentum controlling parameter it will help,
 
-![Image of function](Images/momentum.png =250x250)
+![Image of function](Images/momentum.png)
 ![Image of function](Images/momentum_3d.png)
 Thats it. Go to the ipynb files now.
   
