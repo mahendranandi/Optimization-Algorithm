@@ -65,8 +65,8 @@ look at the functions think how to find the minimum starting from a arbitrary po
 We will work with simple univariate and bivariate functions for understanding,:yawning_face: One convex and one non-convex function is shown below,
 <!-- - ![Image of function](Images/convex_function.png)     ![Image of function](Images/non_convex.png) -->
 
-[convex surface]<img src="./Images/convex_function.png" align="left" width="370" height="370">
-[concave surface]<img src="./Images/non_convex.png" align="right" width="370" height="370">
+[convex surface]<img src="./Images/convex_function.png" align="left" width="372" height="370">
+[concave surface]<img src="./Images/non_convex.png" align="right" width="372" height="370">
 
 <!-- <div>
     <img src="attachment:Images/convex_function.png" width="250" / >
