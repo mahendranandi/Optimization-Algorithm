@@ -4,7 +4,7 @@ For learning, visualizing and understanding the optimization techniques and algo
 #
 #
 
-Visualizations and in depth concepts of the Machine Learning optimization algorithms are discussed and shown here with different functions as examples and understanding the differences by comparing  them.
+Visualizations and in depth concepts of the Machine Learning optimization algorithms are discussed and shown here with different functions as examples and understanding the differences by comparing  them.  For the more advanced and application part please visit the folder named " Playing_with_Optimizers_in_DL "
 ## Over all types of Line and direction search algorithms in Gradient Descent discussed here: :shipit:
 - Line search & direction search in Gradient Descent:
   - >> Exact Methods:
