@@ -168,7 +168,7 @@ Thats it. Go to the ipynb files now.
   
   
 **
-For the discussion on comparison among the advanced optimization techniques to solve a real world case, please visit [here](https://github.com/mahendranandi/Optimization-Algorithm/tree/main/Playing_With_Optimizers_in_DL). 
+For the discussion on comparison among the advanced optimization techniques to solve a real world case, please visit [here](https://github.com/mahendranandi/Optimization-Algorithm/tree/main/Playing_With_Optimizers_in_DL) inside this repository.
 
 Feel free to contact me in mahendranandi.0608@gmail.com
 
