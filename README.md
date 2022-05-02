@@ -4,7 +4,8 @@ For learning, visualizing and understanding the optimization techniques and algo
 #
 #
 
-Visualizations and in depth concepts of the Machine Learning optimization algorithms are discussed and shown here with different functions as examples and understanding the differences by comparing  them.  For the more advanced and application part please visit the folder named " Playing_with_Optimizers_in_DL "
+Visualizations and in depth concepts of the Machine Learning optimization algorithms are discussed and shown here with different functions as examples and understanding the differences by comparing  them.  For the more advanced and application part please visit the folder named 
+[" Playing_with_Optimizers_in_DL "](https://github.com/mahendranandi/Optimization-Algorithm/tree/main/Playing_With_Optimizers_in_DL)
 ## Over all types of Line and direction search algorithms in Gradient Descent discussed here: :shipit:
 - Line search & direction search in Gradient Descent:
   - >> Exact Methods:
@@ -167,10 +168,11 @@ Thats it. Go to the ipynb files now.
   
   
 **
-Also I think, it will be better if anyone want to help me by just making the ipynb files more understandable by separation the topics.
-If you feel hard anywhere, contact me in mahendranandi.0608@gmail.com
+For the discussion on comparison among the advanced optimization techniques to solve a real world case, please visit [here](https://github.com/mahendranandi/Optimization-Algorithm/tree/main/Playing_With_Optimizers_in_DL). 
 
-HAve You Any Suggestion For Me? Please , you are welcome to inform me here or drop a message in [LinkedIn](https://www.linkedin.com/in/mahendra-nandi-7038b8176/)
+Feel free to contact me in mahendranandi.0608@gmail.com
+
+Suggestions are warmly wellcomed. Please ,inform me here or drop a message in [LinkedIn](https://www.linkedin.com/in/mahendra-nandi-7038b8176/)
 
 **
 
