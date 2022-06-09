@@ -299,8 +299,9 @@ Proposed default values by the authors:
  <img src="./Images/all_opt.png" align="middle" width="600" height="790">
 <!-- width="220" height="220" -->
 
-REFERENCES::
+### REFERENCES::
 https://ruder.io/optimizing-gradient-descent/index.html#adam
+
 https://cs231n.github.io/neural-networks-3/
 
 
